@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 from sklearn.metrics import mean_absolute_error
 import warnings
+import numpy as np
 
 # FutureWarning 무시
 warnings.filterwarnings("ignore", category=FutureWarning)
@@ -11,7 +12,11 @@ warnings.filterwarnings("ignore", category=FutureWarning)
 def monthlyMaePlot(data):
     result_pred = data[Data.PREDICTED_OUTPUT_DATA.value]
     true_values = data[Data.TEST_OUTPUT_DATA.value]
-    date_df = data[Date.Date.value]
+    date_df = data[Date.DATE.value]
+    columns = data[Data.TEST_OUTPUT_DATA.value].columns
+
+    if isinstance(result_pred, np.ndarray):
+        result_pred = pd.DataFrame(result_pred, columns=columns)
 
     result_pred.columns = [f"result_{col}" for col in result_pred.columns]
     true_values.columns = [f"true_{col}" for col in true_values.columns]
