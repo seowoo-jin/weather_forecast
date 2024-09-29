@@ -2,6 +2,7 @@ from enum import Enum
 
 class Model(Enum):
     MODEL = 'MODEL'
+    BEST_PARAMETER = 'BEST_PARAMETER'
 
 class Date(Enum):
     DATE = 'DATE'
@@ -19,4 +20,4 @@ class Rmse(Enum):
     VALID_RMSE = 'VALID_RMSE'
     BEST_RMSE = 'BEST_RMSE'
     MOVING_RMSE = 'MOVING_RMSE'
-    MONTHLY_RMSE = 'MONTHLY_RMSE'
+    BEST_MAE = 'BEST_MAE'
