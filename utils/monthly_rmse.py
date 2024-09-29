@@ -10,10 +10,10 @@ import numpy as np
 warnings.filterwarnings("ignore", category=FutureWarning)
 
 def monthlyRmsePlot(data):
-    result_pred = data[Data.PREDICTED_OUTPUT_DATA.value]
-    true_values = data[Data.TEST_OUTPUT_DATA.value]
-    date_df = data[Date.DATE.value]
-    columns = data[Data.TEST_OUTPUT_DATA.value].columns
+    result_pred = data[Data.PREDICTED_OUTPUT_DATA]
+    true_values = data[Data.TEST_OUTPUT_DATA]
+    date_df = data[Date.DATE]
+    columns = data[Data.TEST_OUTPUT_DATA].columns
 
     if isinstance(result_pred, np.ndarray):
         result_pred = pd.DataFrame(result_pred, columns=columns)

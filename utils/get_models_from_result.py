@@ -46,9 +46,10 @@ def plot_rmse(rmse_dict):
     plt.xlabel('File Name', fontsize=12)
     plt.ylabel('RMSE', fontsize=12)
     plt.title('RMSE Values from PKL Files', fontsize=14)
-
+    # y축 범위 설정
+    plt.ylim(1, 5)
     # x축 파일 이름이 잘 보이게 회전
-    plt.xticks(rotation=90)
+    plt.xticks(rotation=20)
 
     plt.tight_layout()
     plt.show()
