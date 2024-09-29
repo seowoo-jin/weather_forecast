@@ -3,3 +3,4 @@ cache/
 result_model/
 __pycache__
 .cache.sqlite
+result_model_fold/
