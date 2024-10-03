@@ -20,4 +20,7 @@
 ### 날씨 데이터 지역
 - Ohio 외 주변 8지역
 # ![image](https://github.com/user-attachments/assets/93e4492a-6815-44f9-8d43-98bb2eee558d)
+- Montana 외 주변 8지역
+# ![image](https://github.com/user-attachments/assets/c7f8b2b7-eb76-4dd5-be7d-357544e77b8b)
+
 
