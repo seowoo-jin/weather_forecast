@@ -51,6 +51,8 @@
  ┣ training_base_model.ipynb     * 기본 모델 학습
  ┗ 논문.docx
 ~~~
+### 학습 모델 결과
+- https://drive.google.com/drive/folders/1tSzzNmZoHevfAxP2nLoOQ7ai2R_sw3-A?usp=sharing
 ## 데이터
 ### API URL
 - https://open-meteo.com/en/docs/historical-weather-api
