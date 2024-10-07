@@ -13,6 +13,7 @@
   - Voting
   - Staking
   - Bagging
+  - Boosting
 ~~~
  ┣ data
  ┃ ┣ Billings_MT.xlsx         * 몬타나주 기상데이터
@@ -35,7 +36,7 @@
  ┃ ┣ get_models_from_result.py   * 학습 결과 모델 pkl 파일에서 rmse, plot 생성
  ┃ ┣ monthly_mae.py              * 월별 mae 값 비교
  ┃ ┣ monthly_rmse.py             * 월별 rmse 값 비교
- ┃ ┗ weather_api.py              * 날씨 몌ㅑ
+ ┃ ┗ weather_api.py              * 날씨 API
  ┣ MLP.ipynb                     * MLP 모델 결과
  ┣ Begging.ipynb                 * Begging 모델 학습
  ┣ Decisiontree.ipynb            * 결정 트리 모델 결과
