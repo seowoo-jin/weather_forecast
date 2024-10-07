@@ -74,3 +74,5 @@ TODO
     Gradient Boosting은 이전 모델의 오차를 보완하는 방식으로 성능을 높이지만 느릴 수 있음.
     Random Forest는 여러 트리를 병렬 학습하며 예측 성능이 우수하고 빠름.
     XGBoost는 Gradient Boosting의 성능을 강화한 모델로, 빠르고 강력한 최적화 기능을 제공.
+
+
